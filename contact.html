@@ -1,0 +1,211 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Page title -->
+  <title>Mobile Graphy</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Mobile viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+  <!-- Use Chrome Frame -->
+  <!--[if lt IE 9 ]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+
+    <!-- Title -->
+    <h1>
+      <a href="index-2.html">Mobile Graphy</a>
+      <span>Take by Mobile Phone | XPERIA</span>
+    </h1>
+
+    <!-- Menu -->
+    <nav>
+
+      <!-- Desktop navigation -->
+  <ul class="navigation">
+        <li>
+          <a href="index.html" class="selected">HOME</a>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="slideshow.html">Slideshow</a></li>
+        
+        <li>
+          <a href="#"><blink>All WJI</blink></a>
+          <ul>
+            <li><a href="http://wawanadie.com">WawanAdie</a></li>
+            <li><a href="http://twitter.com/jey_ananta">Juni Ananta</a></li>
+            <li><a href="http://twitter.com/istiningdn">Istining DN</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="blog.html">Blog</a>
+        </li>
+        <li><a href="contact.html">Contact US</a></li>
+      </ul>
+      <!-- Social icons -->
+      <ul class="social">
+		<li><a href="http://twitter.com/wawanadie"><img src="img/icons/twitter.png" alt="Twitter"></a></li>
+        <li><a href="http://facebook.com/wawan.adie.s"><img src="img/icons/facebook_alt.png" alt="Facebook"></a></li>
+        <li><a href="ask@wawanadie.com"><img src="img/icons/mail.png" alt="E-mail"></a></li>
+      </ul>
+
+      <!-- Social links or text -->
+      <!--
+      <div class="social">
+        <a href="#">1-800-123-456</a> &nbsp;
+        <a href="#">Facebook</a> &nbsp;
+        <a href="#">Twitter</a>
+      </div>
+      -->
+
+      <!-- Mobile navigation -->
+      <div class="mobile">
+      </div>
+
+    </nav>
+
+  </header>
+ 
+
+ <!-- Centered container -->
+<div class="layout_container">
+
+  <!-- Map -->
+  <section class="map content">
+    
+    <div class="flex">
+      <div class="google_map" data-latitude="40.75" data-longitude="-74.0" data-zoom="15"></div>
+      <img src="placeholders/cover.JPG" width="880" height="480">
+    </div>
+
+  </section>
+
+
+  <!-- Contact layout -->
+  <section class="content nobox clearfix">
+
+    <!-- 1st column -->
+    <div class="one_half first">
+
+      <h3>Kritik dan Saran</h3>
+
+      <p>WJI.? Apa itu? <b>WJI</b> kepanjangan dari Wawan Juni Isti, Web ini menampilkan foto-foto bagus tetapi dengan device yang minim, yup tentusaja dengan <b>kamera ponsel. :) </b></p>
+      <p>Silahkan kirim kritik dan saran tentang foto-foto dari kita atau pengen merequest foto lokasi yang bagus.</p>
+
+      <br>
+
+      <table class="parameters">
+        <tr>
+          <th>Address</th>
+          <td>Jl. Gajah  |  gang Jolotundo V  |  No. 18</td>
+        </tr>
+        <tr>
+          <th>Phone</th>
+          <td>085727882227</td>
+        </tr>
+        <tr>
+          <th>E-mail</th>
+          <td>ask@wawanadie.com</td>
+        </tr>
+      </table>
+
+    </div>
+
+
+    <!-- 2nd column -->
+    <div class="one_half last">
+
+      <h3>Tinggalkan pesan</h3>
+
+      <form action="#" id="contact_form">
+
+        <div class="one_half first">
+          <label for="name">Nama Anda:</label>
+          <input name="name" id="name" type="text">
+        </div>
+
+        <div class="one_half last">
+          <label for="email">E-mail:</label>
+          <input name="email" id="email" type="email">
+        </div>
+
+        <div>
+          <label for="message">Pesan:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="Send" class="button">
+          <p class="status"></p>
+        </div>
+
+      </form>
+
+    </div>
+
+  </section>
+
+</div> 
+ 
+ 
+  <div class="clearfix"></div>
+
+
+  <!-- jQuery -->
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <!-- Scripts -->
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="js/jquery.masonry.min.js"></script>
+  <script src="js/jquery.touchSwipe.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2529322-24']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+<hr>
+<blockquote>Design by <a href="http://wawanadie.com"> WawanAdie </a> And <a href="http://coferone.wawanadie.com"> CoferWAN </a></blockquote>
+
+</html>
